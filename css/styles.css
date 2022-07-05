@@ -209,7 +209,7 @@ after
 
 
 .name{
-    background-image: url(/img/nam.jpg);
+    background-image: url(./img/nam.jpg);
     grid-area: name;
     background-color: #5EB1BF;
     border: 1px thick black;
