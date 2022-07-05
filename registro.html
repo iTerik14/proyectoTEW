@@ -14,21 +14,22 @@
 
 	<div class="container">
         <header class="header">
-            <span class="logo"><a href="index.html">Form Is</a></span>
+            <div class="logo"><a href="index.html"><img src="img/logo.png" alt="nitermc"></a></div>
         </header>
 
         <nav class="nav">
 
             <ul class="menu">
                 <li>
-                    <a class="link link1" href="index.html"><span class="icon-home"></span> Inicio</a>
+                    <a class="link link1" href="index.html"><span class="icon-home"></span> Home</a>
 
                 </li>
                 <li>
-                    <a class="link link2" href="registro.html"><span class="icon-user-check"></span> Registro</a>
+                    <a class="link link2" href="tienda.html"><span class="icon-coin-dollar"></span> Tienda</a>
+                    
                 </li>
                 <li>
-                    <a class="link link3" href=""><span class="icon-file-text"></span> Encuesta</a>
+                    <a class="link link3" href="pagos.html"><span class="icon-file-text"></span> Metodos de Pago</a>
                 </li>
                 <li>
                     <a class="link link4" href="contacto.html"><span class="icon-phone"></span> Contacto</a>
@@ -42,15 +43,20 @@
                 <li>
                     <a href="#"><span class="icon-user"></span> login</a>
                 </li>
+                <li>
+                    <a href="registro.html">Registro</a>
+                </li>
+                <li>
+                    <a href="#"><span class="icon-cart"></span> Carrito</a>
+                </li>
                 
             </ul>
         </nav>
 
         <section class="principal">
-            <!-- <div class="name">
-                <h1>INICIO</h1>
+            <div class="name">
+                <h2>Registro</h2>
             </div>
-            -->
 
             <main class="main">
 				<form action="" class="formulario" id="formulario">
@@ -71,7 +77,7 @@
 							<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Erik">
 							<i class="formulario__validacion-estado fas fa-times-circle"></i>
 						</div>
-						<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+						<p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
 					</div>
 		
 					<!-- Grupo: Contraseña -->
@@ -132,11 +138,32 @@
 					</div>
 				</form>
 			</main>
-
+			<!--
             <sidebar class="sidebar">sidebar</sidebar>
+			-->
         </section>
 
-        <footer class="footer">footer</footer>
+        <footer class="footer">
+			<div class="cont">
+                <div class="logo">
+                    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="nitermc"></a></div>
+                </div>
+                <div>
+                    <h4>
+                        Somos un servidor apto para ofrecer <br>
+                        variedad de diversion para nuestros usarios
+                    </h4>
+                </div>
+            </div>
+
+            <div class="redes">
+                <a href="#"><span class="icon-whatsapp wa red"></span></a>
+                <a href="#"><span class="icon-youtube2 yt red"></span></a>
+                <a href="#"><span class="icon-twitter tw red"></span></a>
+                <a href="#"><span class="icon-twitch red"></span></a>
+                <a href="#"><span class="icon-facebook2 red"></span></a>
+            </div>
+		</footer>
     </div>
 	
 

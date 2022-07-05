@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2k8r8f');
-  src:  url('fonts/icomoon.eot?2k8r8f#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2k8r8f') format('truetype'),
-    url('fonts/icomoon.woff?2k8r8f') format('woff'),
-    url('fonts/icomoon.svg?2k8r8f#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6u2lwf');
+  src:  url('fonts/icomoon.eot?6u2lwf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6u2lwf') format('truetype'),
+    url('fonts/icomoon.woff?6u2lwf') format('woff'),
+    url('fonts/icomoon.svg?6u2lwf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,18 +31,111 @@
 .icon-pencil:before {
   content: "\e905";
 }
+.icon-droplet:before {
+  content: "\e90b";
+}
+.icon-music:before {
+  content: "\e911";
+}
 .icon-file-text:before {
   content: "\e922";
+}
+.icon-folder-download:before {
+  content: "\e933";
+}
+.icon-ticket:before {
+  content: "\e939";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
 }
 .icon-phone:before {
   content: "\e942";
 }
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
 .icon-pushpin:before {
   content: "\e946";
+}
+.icon-alarm:before {
+  content: "\e950";
+}
+.icon-drive:before {
+  content: "\e963";
+}
+.icon-database:before {
+  content: "\e964";
 }
 .icon-user:before {
   content: "\e971";
 }
 .icon-user-check:before {
   content: "\e975";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-key:before {
+  content: "\e98d";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-lab:before {
+  content: "\e9aa";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-accessibility:before {
+  content: "\e9b2";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-flickr4:before {
+  content: "\eaa6";
+}
+.icon-steam:before {
+  content: "\eaac";
 }

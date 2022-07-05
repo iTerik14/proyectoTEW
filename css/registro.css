@@ -6,15 +6,16 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background: #E5E5E5;
 }
-
+/*
 main {
 	max-width: 800px;
 	width: 90%;
 	margin: auto;
 	padding: 40px;
 }
-
+*/
 .formulario {
+	margin: 60px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
@@ -61,7 +62,7 @@ main {
 
 .formulario__validacion-estado {
 	position: absolute;
-	right: 10px;
+	right: 25px;
 	bottom: 15px;
 	z-index: 100;
 	font-size: 16px;

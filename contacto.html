@@ -1,123 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Contacto</title>
-	<link rel="stylesheet" href="/css/normalize.css">
-	<link rel="stylesheet" href="/css/styles.css">
-	<link rel="stylesheet" href="/css/style.css">
-
-	<!-- GOOGLE FONTs -->
-	<!--<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">-->
-	<!-- FONT AWESOME -->
-	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
-	<!-- ANIMATE CSS -->
-	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <header class="header">
+            <div class="logo"><a href="index.html"><img src="img/logo.png" alt="nitermc"></a></div>
+        </header>
 
-	<div class="container">
-		<header class="header">
-			<span class="logo"><a href="index.html">Form Is</a></span>
-		</header>
+        <nav class="nav">
 
-		<nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a class="link link1" href="index.html"><span class="icon-home"></span> Home</a>
 
-			<ul class="menu">
-				<li>
-					<a class="link link1" href="index.html"><span class="icon-home"></span> Inicio</a>
+                </li>
+                <li>
+                    <a class="link link2" href="tienda.html"><span class="icon-coin-dollar"></span> Tienda</a>
+                    
+                </li>
+                <li>
+                    <a class="link link3" href="pagos.html"><span class="icon-file-text"></span> Metodos de Pago</a>
+                </li>
+                <li>
+                    <a class="link link4" href="contacto.html"><span class="icon-phone"></span> Contacto</a>
+                </li>
+                <li>
+                    <a class="link link5" href="#"><span class="icon-pushpin"></span> AcercaDe</a>
+                </li>
+            </ul>
 
-				</li>
-				<li>
-					<a class="link link2" href="registro.html"><span class="icon-user-check"></span> Registro</a>
-				</li>
-				<li>
-					<a class="link link3" href="#"><span class="icon-file-text"></span> Encuesta</a>
-				</li>
-				<li>
-					<a class="link link4" href="contacto.html"><span class="icon-phone"></span> Contacto</a>
-				</li>
-				<li>
-					<a class="link link5" href="#"><span class="icon-pushpin"></span> AcercaDe</a>
-				</li>
-			</ul>
+            <ul class="log">
+                <li>
+                    <a href="#"><span class="icon-user"></span> login</a>
+                </li>
+                <li>
+                    <a href="registro.html"> Registro</a>
+                </li>
+                <li>
+                    <a href="#"><span class="icon-cart"></span> Carrito</a>
+                </li>
+            </ul>
+        </nav>
 
-			<ul class="log">
-				<li>
-					<a href="#"><span class="icon-user"></span> login</a>
-				</li>
-			</ul>
-		</nav>
-
-		<section class="principal">
-			<!-- <div class="name">
-                <h1>INICIO</h1>
+        <section class="principal">
+            <div class="name">
+                <h2>Contacto</h2>
             </div>
+
+
+            <main class="main">
+                <form action="">
+                    <div class="form">
+                        <h1>Contactame</h1>
+                        <div class="grupo">
+                            <input type="text" name="" id="" required><span class="barra"></span>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="" id="" required><span class="barra"></span>
+                            <label>Email</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" name="" id="" required><span class="barra"></span>
+                            <label>Edad</label>
+                        </div>
+                        <div class="grupo">
+                            <textarea name="" id="" rows="3" required></textarea><span class="barra"></span>
+                            <label>Mensaje</label>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </main>
+            <!--
+            <sidebar class="sidebar">
+
+                <div class="container-box">
+                    <span class="icon-search"></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                    <button>ir</button>
+                </div>
+
+
+                <div class="estado">
+                    <h3>estado del servidor</h3>
+
+                </div>
+            </sidebar>
             -->
+        </section>
 
-			<main class="main">
-				<div class="content">
+        <footer class="footer">
+            <div class="cont">
+                <div class="logo">
+                    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="nitermc"></a></div>
+                </div>
+                <div>
+                    <h4>
+                        Somos un servidor apto para ofrecer <br>
+                        variedad de diversion para nuestros usarios
+                    </h4>
+                </div>
+            </div>
 
-					<h1 class="logo">Contacta<span>me</span></h1>
+            <div class="redes">
+                <a href="#"><span class="icon-whatsapp wa red"></span></a>
+                <a href="#"><span class="icon-youtube2 yt red"></span></a>
+                <a href="#"><span class="icon-twitter tw red"></span></a>
+                <a href="#"><span class="icon-twitch red"></span></a>
+                <a href="#"><span class="icon-facebook2 red"></span></a>
+            </div>
 
-					<div class="contact-wrapper animated bounceInUp">
-						<div class="contact-form">
-							<h3>Contactame</h3>
-							<form action="">
-								<p>
-									<label>FullName</label>
-									<input type="text" name="fullname">
-								</p>
-								<p>
-									<label>Email Adress</label>
-									<input type="email" name="email">
-								</p>
-								<p>
-									<label>Celular</label>
-									<input type="tel" name="phone">
-								</p>
-								<p>
-									<label>Affair</label>
-									<input type="text" name="affair">
-								</p>
-								<p class="block">
-									<label>Message</label>
-									<textarea name="message" rows="3"></textarea>
-								</p>
-								<p class="block">
-									<button>
-										Send
-									</button>
-								</p>
-							</form>
-						</div>
-						<div class="contact-info">
-							<h4>More Info</h4>
-							<ul>
-								<li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
-								<li><i class="fas fa-phone"></i> (111) 111 111 111</li>
-								<li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
-							</ul>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam
-								necessitatibus repellendus?</p>
-							<p>Company.com</p>
-						</div>
-					</div>
-
-				</div>
-			</main>
-
-			<sidebar class="sidebar">sidebar</sidebar>
-		</section>
-
-		<footer class="footer">footer</footer>
-	</div>
-
+        </footer>
+    </div>
 
 </body>
 
