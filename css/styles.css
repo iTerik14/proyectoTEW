@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/img/paven.png);
+    background-image: url("/img/paven.png");
     margin: 0;
     font-family: Arial, Helvetica;
 }
@@ -209,7 +209,7 @@ after
 
 
 .name{
-    background-image: url(/img/nam.jpg);
+    background-image: url("/img/nam.jpg");
     grid-area: name;
     border: 1px thick black;
     border-radius: 10px;
@@ -322,7 +322,7 @@ button{
 }
 
 .footer {
-    background-image: url(/img/footer.jpg);
+    background-image: url("/img/footer.jpg");
     grid-area: footer;
     border-radius: 10px;
     box-shadow: 0 0 5px 0 teal;
