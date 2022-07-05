@@ -209,9 +209,8 @@ after
 
 
 .name{
-    background-image: url(./img/nam.jpg);
+    background-image: url(/img/nam.jpg);
     grid-area: name;
-    background-color: #5EB1BF;
     border: 1px thick black;
     border-radius: 10px;
     box-shadow: 0 0 3px 0 rgb(117, 118, 118); /*tipo x y desenfoque expancion color*/
