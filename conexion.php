@@ -7,7 +7,7 @@
 	$usuario = "wolfsk8";
 	  $password = "";*/
 	  $password = "";
-	  $db = "biblioteca";
+	  $db = "nitertew";
 	$conectar = new mysqli($servidor, $usuario, $password, $db) or die ("NO SE PUDO ESTABLECER CONECCION");
 	  return $conectar;
    }
