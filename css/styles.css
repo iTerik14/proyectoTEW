@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("/img/paven.png");
+    background-image: url(./img/paven.png);
     margin: 0;
     font-family: Arial, Helvetica;
 }
