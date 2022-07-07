@@ -28,30 +28,17 @@
                 </li>
                 <li>
                     <a class="link link2" href="tienda.html"><span class="icon-coin-dollar"></span> Tienda</a>
-                    
+
                 </li>
                 <li>
                     <a class="link link3" href="pagos.html"><span class="icon-file-text"></span> Metodos de Pago</a>
                 </li>
                 <li>
-                    <a class="link link4" href="contacto.html"><span class="icon-phone"></span> Contacto</a>
+                    <a class="link link4" href="contacto.php"><span class="icon-phone"></span> Contacto</a>
                 </li>
                 <li>
-                    <a class="link link5" href="#"><span class="icon-pushpin"></span> AcercaDe</a>
+                    <a href="regis.php"><span class="icon-user-check"></span> Registro</a>
                 </li>
-            </ul>
-
-            <ul class="log">
-                <li>
-                    <a href="#"><span class="icon-user"></span> login</a>
-                </li>
-                <li>
-                    <a href="registro.html">Registro</a>
-                </li>
-                <li>
-                    <a href="#"><span class="icon-cart"></span> Carrito</a>
-                </li>
-                
             </ul>
         </nav>
 
@@ -66,50 +53,57 @@
 
                 <div class="comp-img">
                     <img src="img/minecraft-villager.gif" alt="compra">
+                </div> <br>
+
+                <div class="cont-nom">Cantidad y Precio</div>
+                <div class="cont-cont">
+                    <div class="contador" id="contador"></div>
+                    <div class="cont-precio" id="cont-precio"></div>
                 </div>
-                <br><br><br>
+                <br><br>
                 <div class="container-compras">
                     <div class="compra-1 compra">
                         <h2>VIP</h2>
                         <h3>10$</h3>
                         <div> <img src="img/1629243391274.png" alt="vip"></div>
-                        
-                        <button type="submit">comprar</button>
+
+                        <button type="submit" onclick="precioVip()" id="vip">comprar</button>
                     </div>
                     <div class="compra-2 compra">
                         <h2>Key 1</h2>
                         <h3>10.99$</h3>
                         <div> <img src="img/1629317861977.png" alt="key1"></div>
-                        <button type="submit">comprar</button>
+                        <button type="submit" onclick="precioKey1()" id="key1">comprar</button>
                     </div>
                     <div class="compra-3 compra">
                         <h2>Key 2</h2>
                         <h3>10$</h3>
                         <div> <img src="img/1629317862013.png" alt="key2"></div>
-                        <button type="submit">comprar</button>
+                        <button type="submit" onclick="precioKey2()">comprar</button>
                     </div>
                     <div class="compra-4 compra">
                         <h2>Key 3</h2>
                         <h3>15.99$</h3>
                         <div> <img src="img/1629317862030.png" alt="key3"></div>
-                        <button type="submit">comprar</button>
+                        <button type="submit" onclick="precioKey3()">comprar</button>
                     </div>
                     <div class="compra-5 compra">
                         <h2>Kits</h2>
                         <h3>20$</h3>
                         <div> <img src="img/5521-totemofundying.png" alt="kits"></div>
-                        <button type="submit">comprar</button>
+                        <button type="submit" onclick="precioKit()">comprar</button>
                     </div>
                     <div class="compra-6 compra">
                         <h2>Especiales</h2>
                         <h3>50$</h3>
                         <div> <img src="img/2024-enchantedgoldenapple.png" alt="especial"></div>
-                        <button type="submit">comprar</button>
+                        <button type="submit" onclick="precioEspe()">comprar</button>
                     </div>
                 </div>
-            </main>
 
-            
+                <br><br><br>
+                
+            </main>
             <!--
             <sidebar class="sidebar">
 
@@ -151,6 +145,54 @@
 
         </footer>
     </div>
+
+    <script>
+        let cont = 0;
+        let contar = document.getElementById('contador');
+
+        let precio = document.getElementById('cont-precio');
+        vvip = 10;
+        vkey1 = 10.99;
+        vkey2 = 10;
+        vkey3 = 15.99;
+        vkit = 30;
+        vespecial = 50;
+        let sumaPrecio = 0;
+        contarComprar = () => {
+            cont++;
+            contar.innerHTML = cont;
+            precio.innerHTML = sumaPrecio.toFixed(2) + "$";
+        }
+
+        precioVip = () => {
+            sumaPrecio += vvip;
+            contarComprar();
+        }
+
+        precioKey1 = () => {
+            sumaPrecio += vkey1;
+            contarComprar();
+        }
+
+        precioKey2 = () => {
+            sumaPrecio += vkey2;
+            contarComprar();
+        }
+        precioKey3 = () => {
+            sumaPrecio += vkey3;
+            contarComprar();
+        }
+        precioKit = () => {
+            sumaPrecio += vkit;
+            contarComprar();
+        }
+        precioEspe = () => {
+            sumaPrecio += vespecial;
+            contarComprar();
+        }
+
+
+    </script>
 
 </body>
 

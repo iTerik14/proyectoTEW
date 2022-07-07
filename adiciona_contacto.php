@@ -1,17 +1,14 @@
 <?php 
   require ("conexion.php");
-  $usuario=$_POST['usuario'];
   $nombre=$_POST['nombre'];
-  $password=$_POST['password'];
-  $password2=$_POST['password2'];
   $correo=$_POST['correo'];
-  $telefono=$_POST['telefono'];
+  $edad=$_POST['edad'];
+  $mensaje=$_POST['mensaje'];
   
-  $query= "INSERT INTO registro (usuario,nombre,password,password2,correo,telefono)  VALUES ('$usuario','$nombre','$password','$password2','$correo','$telefono')";
+  $query= "INSERT INTO contacto (nombre,correo,edad,mensaje)  VALUES ('$nombre','$correo','$edad','$mensaje')";
 
   $resultado=$conexion->query($query);
 ?>
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -81,12 +78,13 @@
                     <a class="link link3" href="pagos.html"><span class="icon-file-text"></span> Metodos de Pago</a>
                 </li>
                 <li>
-                    <a class="link link4" href="contacto.php"><span class="icon-phone"></span> Contacto</a>
+                    <a class="link link4" href="contacto.html"><span class="icon-phone"></span> Contacto</a>
                 </li>
                 <li>
                     <a href="regis.php"><span class="icon-user-check"></span> Registro</a>
                 </li>
             </ul>
+
         </nav>
 
         <section class="principal">
@@ -99,15 +97,12 @@
                 <div class="datos">
                     <h3>datos enviados</h3>
                     <?php
-                        echo $usuario."<br>";
                         echo $nombre."<br>";
-                        echo $password."<br>";
-                        echo $password2."<br>";
                         echo $correo."<br>";
-                        echo $telefono."<br>"; 
+                        echo $edad."<br>";
+                        echo $mensaje."<br>";
                     ?>
                 </div>
-
                 <div class="result">
                     <h3>estado</h3>
                     <?php
